@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[from jQuery to JavaScript]]></title>
-  <link href="http://starzonmyarmz.github.com/jq_to_js/atom.xml" rel="self"/>
+  <title><![CDATA[Category: selectors | from jQuery to JavaScript]]></title>
+  <link href="http://starzonmyarmz.github.com/jq_to_js/blog/categories/selectors/atom.xml" rel="self"/>
   <link href="http://starzonmyarmz.github.com/jq_to_js/"/>
   <updated>2012-01-03T13:43:03-05:00</updated>
   <id>http://starzonmyarmz.github.com/jq_to_js/</id>
@@ -23,7 +23,7 @@
 <pre><code>document.getElementById('foo');
 </code></pre>
 
-<p>I&#8217;ll admit, this code by itself isn&#8217;t extremely useful, but it is a fundlemental building block to being able to access and manipulate  elements within a web page. Soon I&#8217;ll show you what you can do with a DOM element once you&#8217;ve selected it, as well as other methods for querying DOM selectors.</p>
+<p>I'll admit, this code by itself isn't extremely useful, but it is a fundlemental building block to being able to access and manipulate  elements within a web page. Soon I'll show you what you can do with a DOM element once you've selected it, as well as other methods for querying DOM selectors.</p>
 ]]></content>
   </entry>
   
