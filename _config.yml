@@ -5,7 +5,7 @@
 url: http://starzonmyarmz.github.com/jq_to_js
 title: from jQuery to JavaScript
 subtitle: Teaching designers how to write quality JavaScript based on jQuery examples.
-author: Daniel Marino
+author: from jQuery to Javascript
 simple_search: http://google.com/search
 description:
 
@@ -72,7 +72,7 @@ twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -89,8 +89,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: fromjqtojs
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
