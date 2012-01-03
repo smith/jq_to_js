@@ -4,7 +4,7 @@
   <title><![CDATA[from jQuery to JavaScript]]></title>
   <link href="http://starzonmyarmz.github.com/jq_to_js/atom.xml" rel="self"/>
   <link href="http://starzonmyarmz.github.com/jq_to_js/"/>
-  <updated>2012-01-03T13:43:03-05:00</updated>
+  <updated>2012-01-03T16:53:56-05:00</updated>
   <id>http://starzonmyarmz.github.com/jq_to_js/</id>
   <author>
     <name><![CDATA[from jQuery to Javascript]]></name>
@@ -12,19 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Getting an HTML Element by it's ID Attribute]]></title>
-    <link href="http://starzonmyarmz.github.com/jq_to_js/blog/2012/01/02/querying-an-element-by-id/"/>
-    <updated>2012-01-02T20:12:00-05:00</updated>
-    <id>http://starzonmyarmz.github.com/jq_to_js/blog/2012/01/02/querying-an-element-by-id</id>
-    <content type="html"><![CDATA[<p>One of the greatest features jQuery is known for is its impressive selector engine. Its easy to take for granted the ability to query the DOM for elements by using simple CSS-like syntax. With JavaScript, it requires a little more effort (and in some cases a lot more effort). However, there is one method for getting a single DOM element that is easy to learn and remember, and that is the <code>getElementById()</code> method. It does exactly as its name implies - it allows you to get an element by its <code>id</code> attribute.</p>
-
-<pre><code>document.getElementById('foo');
-</code></pre>
-
-<p>I&#8217;ll admit, this code by itself isn&#8217;t extremely useful, but it is a fundlemental building block to being able to access and manipulate  elements within a web page. Soon I&#8217;ll show you what you can do with a DOM element once you&#8217;ve selected it, as well as other methods for querying DOM selectors.</p>
-]]></content>
-  </entry>
   
 </feed>
