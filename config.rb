@@ -2,10 +2,10 @@
 project_type = :stand_alone
 
 # Publishing paths
-http_path = "/jq_to_js/"
-http_images_path = "/jq_to_js/images"
-http_fonts_path = "/jq_to_js/fonts"
-css_dir = "public/jq_to_js/stylesheets"
+http_path = "/"
+http_images_path = "/images"
+http_fonts_path = "/fonts"
+css_dir = "public/stylesheets"
 
 # Local development paths
 sass_dir = "sass"
