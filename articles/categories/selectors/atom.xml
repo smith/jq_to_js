@@ -4,7 +4,7 @@
   <title><![CDATA[Category: selectors | from jQuery to JavaScript]]></title>
   <link href="http://starzonmyarmz.github.com/jq_to_js/articles/categories/selectors/atom.xml" rel="self"/>
   <link href="http://starzonmyarmz.github.com/jq_to_js/"/>
-  <updated>2012-01-04T09:36:22-05:00</updated>
+  <updated>2012-01-04T09:48:42-05:00</updated>
   <id>http://starzonmyarmz.github.com/jq_to_js/</id>
   <author>
     <name><![CDATA[from jQuery to Javascript]]></name>
@@ -28,7 +28,7 @@
 <pre><code>document.getElementById('foo') // Returns an Element object with the id 'foo'
 </code></pre>
 
-<p>I'll admit, this code by itself isn't extremely useful, but it is a fundlemental building block to being able to access and manipulate elements within a web page. Soon I'll show you what you can do with a DOM element once you've selected it, as well as other methods for querying DOM selectors.</p>
+<p>I'll admit, this code by itself isn't extremely useful, but it is a fundamental building block to being able to access and manipulate elements within a web page. Soon I'll show you what you can do with a DOM element once you've selected it, as well as other methods for querying DOM selectors.</p>
 
 <h3>Resources</h3>
 
