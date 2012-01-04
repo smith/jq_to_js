@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://starzonmyarmz.github.com/jq_to_js
+url: http://fromjquerytojavascript.com
 title: from jQuery to JavaScript
 subtitle: Teaching designers how to write quality JavaScript based on jQuery examples.
 author: from jQuery to Javascript
@@ -17,6 +17,7 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
+feedburner_feed: fromjquerytojs
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
