@@ -9,7 +9,7 @@
   <meta name="author" content="from jQuery to Javascript">
 
   
-  <meta name="description" content=" More Articles Recent Posts ">
+  <meta name="description" content="One of the greatest features jQuery is known for is its impressive selector engine. Its easy to take for granted the ability to query the DOM for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +77,62 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/get-element-by-id/">Getting an HTML Element by its ID Attribute</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-02T20:12:00-05:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2012</time>
+        
+         | <a href="/articles/get-element-by-id/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>One of the greatest features jQuery is known for is its impressive <a href="http://api.jquery.com/category/selectors/">selector</a> engine. Its easy to take for granted the ability to query the DOM for elements by using simple CSS-like syntax. For example, if you wanted to reference an element with an <code>id</code> of &#8220;foo&#8221;, your jQuery script might look like:</p>
+
+<pre><code>$('#foo') // Returns a jQuery object with the id 'foo'
+</code></pre>
+
+<p>With JavaScript, it requires a little more effort (and in some cases a lot more effort) to query DOM elements. However, there is one method for getting a single DOM element that is easy to learn and remember, and that is the <code>getElementById()</code> method. It does exactly as its name implies - it allows you to get an element by its <code>id</code> attribute.</p>
+
+<pre><code>document.getElementById('foo') // Returns an Element object with the id 'foo'
+</code></pre>
+
+<p>I&#8217;ll admit, this code by itself isn&#8217;t extremely useful, but it is a fundlemental building block to being able to access and manipulate elements within a web page. Soon I&#8217;ll show you what you can do with a DOM element once you&#8217;ve selected it, as well as other methods for querying DOM selectors.</p>
+
+<h3>Resources</h3>
+
+<ul>
+<li><a href="http://api.jquery.com/id-selector/">jQuery ID Selector</a></li>
+<li><a href="https://developer.mozilla.org/en/DOM/document.getElementById">JavaScript getElementById() Method</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/articles/archives">More Articles</a>
@@ -88,6 +144,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/articles/get-element-by-id/">Getting an HTML Element by its ID Attribute</a>
+      </li>
     
   </ul>
 </section>

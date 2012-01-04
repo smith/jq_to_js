@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Articles - from jQuery to JavaScript</title>
+  <title>Getting an HTML Element by its ID Attribute - from jQuery to JavaScript</title>
   <meta name="author" content="from jQuery to Javascript">
 
   
-  <meta name="description" content=" Articles 2012 Getting an HTML Element by its ID Attribute
-Jan 02 2012 posted in selectors Recent Posts Getting an HTML Element by its ID Attribute ">
+  <meta name="description" content="One of the greatest features jQuery is known for is its impressive selector engine. Its easy to take for granted the ability to query the DOM for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ Jan 02 2012 posted in selectors Recent Posts Getting an HTML Element by its ID A
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://starzonmyarmz.github.com/jq_to_js/articles/archives">
+  <link rel="canonical" href="http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,36 +75,113 @@ Jan 02 2012 posted in selectors Recent Posts Getting an HTML Element by its ID A
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Articles</h1>
+    
+      <h1 class="entry-title">Getting an HTML Element by its ID Attribute</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-02T20:12:00-05:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2012</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>One of the greatest features jQuery is known for is its impressive <a href="http://api.jquery.com/category/selectors/">selector</a> engine. Its easy to take for granted the ability to query the DOM for elements by using simple CSS-like syntax. For example, if you wanted to reference an element with an <code>id</code> of &#8220;foo&#8221;, your jQuery script might look like:</p>
 
-  
-  <h2>2012</h2>
+<pre><code>$('#foo') // Returns a jQuery object with the id 'foo'
+</code></pre>
 
-<article>
-  
-<h1><a href="/articles/get-element-by-id/">Getting an HTML Element by its ID Attribute</a></h1>
-<time datetime="2012-01-02T20:12:00-05:00" pubdate><span class='month'>Jan</span> <span class='day'>02</span> <span class='year'>2012</span></time>
+<p>With JavaScript, it requires a little more effort (and in some cases a lot more effort) to query DOM elements. However, there is one method for getting a single DOM element that is easy to learn and remember, and that is the <code>getElementById()</code> method. It does exactly as its name implies - it allows you to get an element by its <code>id</code> attribute.</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/articles/categories/selectors/'>selectors</a></span>
-</footer>
+<pre><code>document.getElementById('foo') // Returns an Element object with the id 'foo'
+</code></pre>
 
+<p>I&#8217;ll admit, this code by itself isn&#8217;t extremely useful, but it is a fundlemental building block to being able to access and manipulate elements within a web page. Soon I&#8217;ll show you what you can do with a DOM element once you&#8217;ve selected it, as well as other methods for querying DOM selectors.</p>
 
-</article>
+<h3>Resources</h3>
+
+<ul>
+<li><a href="http://api.jquery.com/id-selector/">jQuery ID Selector</a></li>
+<li><a href="https://developer.mozilla.org/en/DOM/document.getElementById">JavaScript getElementById() Method</a></li>
+</ul>
 
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Daniel Marino</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-02T20:12:00-05:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/articles/categories/selectors/'>selectors</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id/" data-via="" data-counturl="http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -145,7 +221,10 @@ Jan 02 2012 posted in selectors Recent Posts Getting an HTML Element by its ID A
       var disqus_shortname = 'fromjqtojs';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id/';
+        var disqus_url = 'http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
