@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: selectors | from jQuery to JavaScript]]></title>
-  <link href="http://starzonmyarmz.github.com/jq_to_js/articles/categories/selectors/atom.xml" rel="self"/>
-  <link href="http://starzonmyarmz.github.com/jq_to_js/"/>
-  <updated>2012-01-04T09:48:42-05:00</updated>
-  <id>http://starzonmyarmz.github.com/jq_to_js/</id>
+  <link href="http://fromjquerytojavascript.com/articles/categories/selectors/atom.xml" rel="self"/>
+  <link href="http://fromjquerytojavascript.com/"/>
+  <updated>2012-01-04T09:57:39-05:00</updated>
+  <id>http://fromjquerytojavascript.com/</id>
   <author>
     <name><![CDATA[from jQuery to Javascript]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Getting an HTML Element by its ID Attribute]]></title>
-    <link href="http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id/"/>
+    <link href="http://fromjquerytojavascript.com/articles/get-element-by-id/"/>
     <updated>2012-01-02T20:12:00-05:00</updated>
-    <id>http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id</id>
+    <id>http://fromjquerytojavascript.com/articles/get-element-by-id</id>
     <content type="html"><![CDATA[<p>One of the greatest features jQuery is known for is its impressive <a href="http://api.jquery.com/category/selectors/">selector</a> engine. Its easy to take for granted the ability to query the DOM for elements by using simple CSS-like syntax. For example, if you wanted to reference an element with an <code>id</code> of "foo", your jQuery script might look like:</p>
 
 <pre><code>$('#foo') // Returns a jQuery object with the id 'foo'

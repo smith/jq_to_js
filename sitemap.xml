@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://starzonmyarmz.github.com/jq_to_js/articles/get-element-by-id/</loc>
+        <loc>http://fromjquerytojavascript.com/articles/get-element-by-id/</loc>
         <lastmod>2012-01-04T09:47:49-05:00</lastmod>
     </url>
     <url>
-        <loc>http://starzonmyarmz.github.com/jq_to_js/articles/archives/</loc>
+        <loc>http://fromjquerytojavascript.com/articles/archives/</loc>
         <lastmod>2012-01-04T09:47:49-05:00</lastmod>
     </url>
     <url>
-        <loc>http://starzonmyarmz.github.com/jq_to_js/</loc>
+        <loc>http://fromjquerytojavascript.com/</loc>
         <lastmod>2012-01-04T09:47:49-05:00</lastmod>
     </url>
 </urlset>
