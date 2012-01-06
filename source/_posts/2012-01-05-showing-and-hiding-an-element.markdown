@@ -8,7 +8,7 @@ categories: effects
 published: false
 ---
 
-A couple of [effects](http://api.jquery.com/category/effects/) that are commonly used in jQuery are the <code>show()</code> and <code>hide()</code> methods. These effects do precisely that - they show and hide elements on the web page. Let's look at a couple of jQuery examples:
+A couple of commonly used [effects](http://api.jquery.com/category/effects/) in jQuery are the <code>show()</code> and <code>hide()</code> methods. These effects do precisely as named - they show and hide elements on the web page. Let's look at a couple of jQuery examples:
 
     $('#foo').show(); // Show the element #foo
 
@@ -24,7 +24,7 @@ These effects are simple to achieve with JavaScript. The first thing we'll do is
 
 The first thing you probably noticed is that the jQuery version is significantly less code than the JavaScript version. That will often be the case, but remember we're not loading the entire jQuery library in the JavaScript version, so we're saving ourselves from having to load all that extra code. This will cut down on page load and script execution time.
 
-A key thing to take away here is that we're setting a CSS property with JavaScript. In fact, you can set any CSS property with JavaScript. This is essentially what jQuery is doing behind the scenes for the [effects](http://api.jquery.com/category/effects/). We'll get more in depth with setting and getting styles in future articles.
+A key thing to take away here is that we're setting a CSS property with JavaScript. In fact, you can set any CSS property with JavaScript. This is essentially what is going on behind the scenes for the [effects](http://api.jquery.com/category/effects/) module of jQuery. We'll get more in depth with setting and getting styles in future articles.
 
 ### Resources
 
