@@ -5,7 +5,7 @@ date: 2012-01-05 10:00
 comments: true
 author: Daniel Marino
 categories: effects
-published: false
+published: true
 ---
 
 A couple of commonly used [effects](http://api.jquery.com/category/effects/) in jQuery are the <code>show()</code> and <code>hide()</code> methods. These effects do precisely as named - they show and hide elements on the web page. Let's look at a couple of jQuery examples:
