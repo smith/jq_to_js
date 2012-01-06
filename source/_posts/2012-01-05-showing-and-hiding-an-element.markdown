@@ -30,5 +30,6 @@ A key thing to take away here is that we're setting a CSS property with JavaScri
 
 - [jQuery show()](http://api.jquery.com/show/)
 - [jQuery hide()](http://api.jquery.com/hide/)
+- [jQuery show() & hide() source](http://github.com/jquery/jquery/blob/master/src/effects.js#L19-95)
 - [JavaScript getElementById() Method](https://developer.mozilla.org/en/DOM/document.getElementById)
 - [JavaScript element.style](https://developer.mozilla.org/en/DOM/element.style)

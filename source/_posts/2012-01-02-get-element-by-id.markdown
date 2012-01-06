@@ -21,4 +21,5 @@ I'll admit, this code by itself isn't extremely useful, but it is a fundamental 
 ### Resources
 
 - [jQuery ID Selector](http://api.jquery.com/id-selector/)
+- [jQuery ID Selector Source](https://github.com/jquery/jquery/blob/master/src/core.js#L141-162)
 - [JavaScript getElementById() Method](https://developer.mozilla.org/en/DOM/document.getElementById)
