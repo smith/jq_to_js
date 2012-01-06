@@ -8,7 +8,7 @@ categories: effects
 published: false
 ---
 
-A couple of [effects](http://api.jquery.com/category/effects/) that are commonly used in jQuery are the [show](http://api.jquery.com/show/) and [hide](http://api.jquery.com/hide/) methods. These effects do precisely that - they show and hide elements. Let's look at a couple of jQuery examples:
+A couple of [effects](http://api.jquery.com/category/effects/) that are commonly used in jQuery are the <code>show()</code> and <code>hide()</code> methods. These effects do precisely that - they show and hide elements on the web page. Let's look at a couple of jQuery examples:
 
     $('#foo').show(); // Show the element #foo
 
