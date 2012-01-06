@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: effects | from jQuery to JavaScript]]></title>
+  <link href="http://fromjquerytojavascript.com/articles/categories/effects/atom.xml" rel="self"/>
+  <link href="http://fromjquerytojavascript.com/"/>
+  <updated>2012-01-06T12:27:41-05:00</updated>
+  <id>http://fromjquerytojavascript.com/</id>
+  <author>
+    <name><![CDATA[from jQuery to Javascript]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Showing and Hiding an Element]]></title>
+    <link href="http://fromjquerytojavascript.com/articles/showing-and-hiding-an-element/"/>
+    <updated>2012-01-05T10:00:00-05:00</updated>
+    <id>http://fromjquerytojavascript.com/articles/showing-and-hiding-an-element</id>
+    <content type="html"><![CDATA[<p>A couple of commonly used <a href="http://api.jquery.com/category/effects/">effects</a> in jQuery are the <code>show()</code> and <code>hide()</code> methods. These effects do precisely as named - they show and hide elements on the web page. Let's look at a couple of jQuery examples:</p>
+
+<pre><code>$('#foo').show(); // Show the element #foo
+
+$('#foo').hide(); // Hide the element #foo
+</code></pre>
+
+<p>These effects are simple to achieve with JavaScript. The first thing we'll do is get the element <code>#foo</code> by it's <code>id</code> attribute, just like we learned in the <a href="/articles/get-element-by-id/">previous article</a>. The second thing we'll do is set <code>#foo</code>'s CSS display property to <code>block</code> to show it or <code>none</code> to hide it. We could also just as easily use any CSS display property other than <code>none</code> to show the element (such as <code>inline</code> or <code>inline-block</code>). Here are the JavaScript examples:</p>
+
+<pre><code>// Show the element #foo
+document.getElementById('foo').style.display = 'block'; // could also use 'inline' or 'inline-block'
+
+// Hide the element #foo
+document.getElementById('foo').style.display = 'none';
+</code></pre>
+
+<p>The first thing you probably noticed is that the jQuery version is significantly less code than the JavaScript version. That will often be the case, but remember we're not loading the entire jQuery library in the JavaScript version, so we're saving ourselves from having to load all that extra code. This will cut down on page load and script execution time.</p>
+
+<p>A key thing to take away here is that we're setting a CSS property with JavaScript. In fact, you can set any CSS property with JavaScript. This is essentially what is going on behind the scenes for the <a href="http://api.jquery.com/category/effects/">effects</a> module of jQuery. We'll get more in depth with setting and getting styles in future articles.</p>
+
+<h3>Resources</h3>
+
+<ul>
+<li><a href="http://api.jquery.com/show/">jQuery show()</a></li>
+<li><a href="http://api.jquery.com/hide/">jQuery hide()</a></li>
+<li><a href="https://developer.mozilla.org/en/DOM/document.getElementById">JavaScript getElementById() Method</a></li>
+<li><a href="https://developer.mozilla.org/en/DOM/element.style">JavaScript element.style</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
