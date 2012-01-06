@@ -4,7 +4,7 @@
   <title><![CDATA[from jQuery to JavaScript]]></title>
   <link href="http://fromjquerytojavascript.com/atom.xml" rel="self"/>
   <link href="http://fromjquerytojavascript.com/"/>
-  <updated>2012-01-06T12:34:10-05:00</updated>
+  <updated>2012-01-06T13:23:42-05:00</updated>
   <id>http://fromjquerytojavascript.com/</id>
   <author>
     <name><![CDATA[from jQuery to Javascript]]></name>
@@ -43,6 +43,7 @@ document.getElementById('foo').style.display = 'none';
 <ul>
 <li><a href="http://api.jquery.com/show/">jQuery show()</a></li>
 <li><a href="http://api.jquery.com/hide/">jQuery hide()</a></li>
+<li><a href="http://github.com/jquery/jquery/blob/master/src/effects.js#L19-95">jQuery show() &amp; hide() source</a></li>
 <li><a href="https://developer.mozilla.org/en/DOM/document.getElementById">JavaScript getElementById() Method</a></li>
 <li><a href="https://developer.mozilla.org/en/DOM/element.style">JavaScript element.style</a></li>
 </ul>
@@ -71,6 +72,7 @@ document.getElementById('foo').style.display = 'none';
 
 <ul>
 <li><a href="http://api.jquery.com/id-selector/">jQuery ID Selector</a></li>
+<li><a href="https://github.com/jquery/jquery/blob/master/src/core.js#L141-162">jQuery ID Selector Source</a></li>
 <li><a href="https://developer.mozilla.org/en/DOM/document.getElementById">JavaScript getElementById() Method</a></li>
 </ul>
 
