@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Showing and Hiding an Element"
-date: 2012-01-04 13:12
+date: 2012-01-05 10:00
 comments: true
 author: Daniel Marino
 categories: effects
@@ -24,7 +24,7 @@ These effects are simple to achieve with JavaScript. The first thing we'll do is
 
 The first thing you probably noticed is that the jQuery version is significantly less code than the JavaScript version. That will often be the case, but remember we're not loading the entire jQuery library in the JavaScript version, so we're saving ourselves from having to load all that extra code. This will cut down on page load and script execution time.
 
-Another key thing to take away here is that we're setting a CSS property with JavaScript. In fact, you can set any CSS property with JavaScript. This is essentially what jQuery is doing behind the scenes for the [effects](http://api.jquery.com/category/effects/). We'll get more in depth with setting and getting styles in a future article.
+A key thing to take away here is that we're setting a CSS property with JavaScript. In fact, you can set any CSS property with JavaScript. This is essentially what jQuery is doing behind the scenes for the [effects](http://api.jquery.com/category/effects/). We'll get more in depth with setting and getting styles in future articles.
 
 ### Resources
 
